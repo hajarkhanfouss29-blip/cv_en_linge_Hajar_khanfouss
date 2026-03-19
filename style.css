@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa, #eaf7f6);
+  padding: 80px 0;
+}
+
+.profile-img {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #ffffff;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #6ccfc7;
+  margin: 10px auto 0;
+  border-radius: 10px;
+}
+
+.card {
+  border-radius: 18px;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.badge {
+  margin-right: 6px;
+  margin-top: 6px;
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+footer {
+  margin-top: 0;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
